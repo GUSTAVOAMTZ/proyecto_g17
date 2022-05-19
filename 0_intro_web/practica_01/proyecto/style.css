@@ -1,0 +1,33 @@
+img{
+    width: 150px;
+    height: 100px;
+}
+
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+
+.grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.grid-hijo{
+    width: 230px;
+    height: 200px;
+    border-radius: 20px;
+}
