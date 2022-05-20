@@ -1,9 +1,27 @@
+@media only screen and ( max-width: 800px) {
+    .btn-dark {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border-color: #FFFFFF;
+    }
+}
 nav {
     padding: 10px;
     display: flex;
     justify-items: end;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    gap: 20px;
+    justify-content: center;
+}
+.grid-hijo{
+    width: 230px;
+    height: 280px;
+    border-radius: 20px;
+}    
 img {
     margin: 5px 10px 10px 3px;
 }
@@ -33,7 +51,14 @@ img {
     /* border-style:  ; FALTA ENCONTRAR EL ESTILO DIFUMINADO */
     /* bs-btn-hover-bg: #6EA4D9; No se admite */
     margin: 7px;
-    padding: 20px}
+    padding: 20px
+}
+.form-control {
+    margin: 5px 3px 10px 3px;
+    color: black;
+    background-color: #F5F3F4;
+    border: 1px solid #FFFFFF;
+}
 
 .grid-container{
         display: grid;
@@ -46,9 +71,3 @@ img {
         height: 280px;
         border-radius: 20px;
     }    
-.form-control {
-    margin: 5px 3px 10px 3px;
-    color: black;
-    background-color: #F5F3F4;
-    border: 1px solid #FFFFFF;
-}
